@@ -1,0 +1,40 @@
+@charset "utf-8";
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body header {
+    text-align: center;
+    color: #BE570B;
+    font-size: 35px;
+}
+nav a:link  {
+    color: #0E0D0D;
+}
+nav a:visited {
+    color: #940C0F;
+}
+nav a:hover {
+    color: #A3D5DE;
+}
+article h3 {
+    color: #FBF9F9;
+    font-size: 30px;
+    text-shadow: 0px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #929292;
+}
+article p {
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 18px;
+    font-size: 15px;
+}
+
+article {
+    min-height: 100px;
+}
